@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropbtn {
+  -webkit-font-smoothing: antialiased;
+  font: 400 11px Roboto, Arial, sans-serif;
+  margin: 10px;
+  left: 0px;
+  top: 0px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-drag: none;
+  background: none padding-box rgb(255, 255, 255);
+  display: table-cell;
+  border: 0px;
+  margin: 0px;
+  padding: 0px 17px;
+  text-transform: none;
+  appearance: none;
+  user-select: none;
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  min-width: 45px;
+  font-weight: 500;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: 400 11px Roboto, Arial, sans-serif;
+  margin: 10px;
+  z-index: 0;
+  position: absolute;
+  cursor: pointer;
+  left: 200px;
+  top: 0px;
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  -webkit-font-smoothing: antialiased;
+  font: 400 11px Roboto, Arial, sans-serif;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  
+}
+
+.dropdown-content div {
+  -webkit-font-smoothing: antialiased;
+  font: 400 11px Roboto, Arial, sans-serif;
+  cursor: pointer;
+  left: 0px;
+  top: 0px;
+  display: block;
+  -webkit-user-drag: none;
+  background: none padding-box rgb(255, 255, 255);
+  border: 0px;
+  margin: 0px;
+  padding: 0px 17px;
+  text-transform: none;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  direction: ltr;
+  overflow: hidden;
+  text-align: center;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  min-width: max-content;
+  font-weight: 500;
+}
+
+.dropdown-content div:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: 0px 8px 16px 0px rgba(0,0,0,0.2);}
