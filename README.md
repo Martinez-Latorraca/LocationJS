@@ -1,3 +1,8 @@
+# IMPORTANT!!
+First of all, you need to get an Google API Key to run this app. Go to (https://developers.google.com/maps/documentation/javascript/get-api-key) and follow the instructions. 
+Then insert your API Key in [credentials.js] and save changes, then you can run the app.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
